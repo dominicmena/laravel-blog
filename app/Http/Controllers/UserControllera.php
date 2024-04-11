@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class UserControllera extends Controller
+class UserController extends Controller
 {
     public function register(Request $request) {
         $incomingFields = $request->validate([
