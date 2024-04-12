@@ -25,6 +25,17 @@
      <button>Register</button>
  </form>
     </div>
+
+    <div style='border: 3px solid black;'>
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            @csrf
+            <input type="text" placeholder="name" name="loginname">
+            
+            <input type="text" placeholder="password" name="loginpassword">
+            <button>Log In</button>
+        </form>
+           </div>
     
     @endauth
 </body>
