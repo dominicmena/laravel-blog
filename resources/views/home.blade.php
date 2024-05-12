@@ -13,6 +13,8 @@
         @csrf
         <button>Log out</button>
        </form>
+
+    
        <div style='border: 3px solid black;'>
         <h2>Create a New Post</h2>
         <form action='/create-post' method="POST">
